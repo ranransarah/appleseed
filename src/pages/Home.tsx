@@ -4,7 +4,7 @@ import Advantages from '../containers/Advantages';
 
 export default function Home() {
 	return (
-		<main className="flex flex-col items-center background-main">
+		<main className="flex flex-col items-center background-main nav-padding-sm md:nav-padding">
 			<About />
 			<Admission />
 			<Advantages />

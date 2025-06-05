@@ -9,13 +9,17 @@ export default function InfoCard({ info }: InfoCardProps) {
 
 	return (
 		<div className="w-full md:w-[48%] p-8 bg-secondary rounded shadow-lg flex flex-row items-center">
-			<Icon
-				className="text-sunshine-gold font-semibold w-auto h-[100%] aspect-square"
-				strokeWidth="1px"
-			/>
+			<div className="h-auto w-1/2 max-w-[80px] aspect-square">
+				<Icon
+					className="w-full h-full text-sunshine-gold"
+					strokeWidth="1px"
+				/>
+			</div>
 			<div className="ml-4">
-				<h3 className="text-xl font-bold">{info.title}</h3>
-				<div className="font-semibold text-lg border-l-2 pl-4">{info.body}</div>
+				<h3 className="text-lg md:text-xl font-bold">{info.title}</h3>
+				<div className="font-semibold text-sm md:text-lg border-l-2 pl-4">
+					{info.body}
+				</div>
 			</div>
 		</div>
 	);

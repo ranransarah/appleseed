@@ -13,7 +13,7 @@ export default function Curriculum() {
 					{CurriculumInfo.map((info, index) => (
 						<Fragment key={info.title}>
 							{index !== 0 && (
-								<div className="my-4 h-1 bg-sunshine-gold w-3/5 rounded-2xl"></div>
+								<div className="my-4 h-1 bg-gradient-to-r from-yellow-100 via-[#fae28d] to-yellow-200 w-3/5 rounded-2xl"></div>
 							)}
 							<CurriculumCard info={info} />
 						</Fragment>

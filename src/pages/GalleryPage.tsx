@@ -9,7 +9,6 @@ export default function GalleryPage() {
 	const [isOpen, setIsOpen] = useState(false);
 
 	const handleClick = ({ index }: { index: number }) => {
-		console.log(index, Images[index]);
 		setSelected(Images[index].src);
 		setIsOpen(true);
 	};
@@ -19,7 +18,7 @@ export default function GalleryPage() {
 	};
 
 	return (
-		<main className="background-main">
+		<main className="background-main md:nav-padding nav-padding-sm">
 			<div className="px-[5%] xl:px-[10%] pb-10 min-h-[80vh]">
 				<h1 className="text-3xl font-bold py-10 text-center">
 					Our Photo Gallery
@@ -28,7 +27,18 @@ export default function GalleryPage() {
 					<RowsPhotoAlbum
 						photos={Images}
 						onClick={handleClick}
-						rowConstraints={{ maxPhotos: 4 }}
+						rowConstraints={(containerWidth) => {
+							let maxPhotos = 4;
+
+							if (containerWidth < 800) {
+								maxPhotos = 2;
+							}
+							if (containerWidth < 400) {
+								maxPhotos = 1;
+							}
+
+							return { maxPhotos };
+						}}
 					/>
 				</div>
 			</div>

@@ -2,7 +2,7 @@ import { Link } from '@tanstack/react-router';
 
 export default function Footer() {
 	return (
-		<footer className="px-[5%] xl:px-[10%] min-h-10 gap-10 flex flex-wrap items-center justify-between py-8">
+		<footer className="px-[5%] xl:px-[10%] min-h-10 gap-10 flex flex-wrap items-center justify-between py-8 shadow-2xl">
 			<div className="flex flex-col">
 				<p className="text-lg font-semibold mb-2">Contact Us</p>
 				<a href="tel:+14083100602">+1 (408) 310-0602</a>

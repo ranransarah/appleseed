@@ -53,7 +53,7 @@ export default function Navbar() {
 	const resize = useResize();
 
 	return (
-		<nav className="flex items-center relative z-20 py-8 px-[5%] xl:px-[10%] min-h-10">
+		<nav className="flex items-center fixed bg-white w-full z-20 py-4 px-[5%] xl:px-[10%] min-h-10 shadow-[0_10px_10px_-10px_rgba(0,0,0,0.3)]">
 			<a
 				href="/"
 				className="z-20 font-semibold flex items-center"
@@ -61,11 +61,11 @@ export default function Navbar() {
 				<img
 					src="/appleseed-logo.png"
 					alt="appleseed logo"
-					className="h-30"
+					className="h-12 md:h-30 mr-2"
 				/>
-				<div className="text-3xl text-nowrap">
+				<div className="text-lg md:text-3xl text-nowrap">
 					Apple Seed 幼儿园
-					<div className="text-xs">
+					<div className="text-[.5em]">
 						<p>小种子，大梦想</p>
 						<p> Little Seeds, Big Dreams!</p>
 					</div>

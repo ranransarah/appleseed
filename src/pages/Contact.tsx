@@ -1,6 +1,6 @@
 export default function Contact() {
 	return (
-		<main className="background-main">
+		<main className="background-main md:nav-padding nav-padding-sm">
 			<div className="px-[5%] xl:px-[10%] py-10 min-h-[80vh] flex flex-col items-center">
 				<h1 className="text-3xl font-bold mb-20">Contact Information</h1>
 				<div className="w-full flex lg:flex-row flex-col items-center justify-center gap-8">

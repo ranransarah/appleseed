@@ -1,8 +1,8 @@
 export default function TOS() {
 	return (
-		<main className="px-[5%] xl:px-[10%] py-10 min-h-[80vh] flex flex-col items-center">
-			<h1 className="text-3xl font-bold mb-20">Terms of Service</h1>
-			<ul className="w-[80%] flex flex-col gap-8">
+		<main className="px-[5%] xl:px-[10%] pb-10 min-h-[80vh] flex flex-col items-center md:nav-padding nav-padding-sm">
+			<h1 className="text-3xl font-bold my-20">Terms of Service</h1>
+			<ul className="md:w-[80%] flex flex-col gap-8">
 				<li>
 					<span className="block mb-4 font-semibold">
 						1. Acceptance of Terms

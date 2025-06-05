@@ -48,3 +48,15 @@
 		background-size: cover;
 	}
 }
+
+@layer utilities {
+	.nav-padding-sm {
+		padding-top: 80px;
+	}
+
+	@media (min-width: 768px) {
+		.md\:nav-padding {
+			padding-top: 150px;
+		}
+	}
+}
