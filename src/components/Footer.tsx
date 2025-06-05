@@ -27,7 +27,7 @@ export default function Footer() {
 							d="M20.977 10.5C20.977 16.0302 16.5649 20.5 11.1385 20.5C5.71216 20.5 1.30005 16.0302 1.30005 10.5C1.30005 4.96982 5.71216 0.5 11.1385 0.5C16.5649 0.5 20.977 4.96982 20.977 10.5Z"
 						/>
 					</svg>
-					Apple Seed Kindergarten
+					Appleseed Daycare
 				</p>
 				<div className="mt-2">
 					<Link to="/privacy-policy">Privacy Policy</Link> |{' '}

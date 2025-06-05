@@ -64,7 +64,7 @@ export default function Navbar() {
 					className="h-12 md:h-30 mr-2"
 				/>
 				<div className="text-lg md:text-3xl text-nowrap">
-					Apple Seed 幼儿园
+					Appleseed 幼儿园
 					<div className="text-[.5em]">
 						<p>小种子，大梦想</p>
 						<p> Little Seeds, Big Dreams!</p>

@@ -8,8 +8,8 @@ export default function TOS() {
 						1. Acceptance of Terms
 					</span>
 					<p className="pl-4">
-						By accessing and using the Apple Seed Kindergarten website ("Site"),
-						you agree to comply with and be bound by these Terms of Service
+						By accessing and using the Appleseed Daycare website ("Site"), you
+						agree to comply with and be bound by these Terms of Service
 						("Terms"). If you do not agree with these Terms, please do not use
 						our Site.
 					</p>
@@ -17,8 +17,8 @@ export default function TOS() {
 				<li>
 					<span className="block mb-4 font-semibold">2. Services Provided</span>
 					<p className="pl-4">
-						Apple Seed Kindergarten offers information about our kindergarten
-						programs, including details on enrollment, facilities, and contact
+						Appleseed Daycare offers information about our daycare programs,
+						including details on enrollment, facilities, and contact
 						information.
 					</p>
 				</li>
@@ -32,7 +32,7 @@ export default function TOS() {
 						<p>
 							<span className="font-semibold">User Conduct:</span>
 							You agree not to use the Site for any unlawful purpose or in a way
-							that may harm Apple Seed Kindergarten or any third party.
+							that may harm Appleseed Daycare or any third party.
 						</p>
 					</div>
 				</li>
@@ -42,8 +42,8 @@ export default function TOS() {
 					</span>
 					<p className="pl-4">
 						All content on this Site, including text, images, logos, and
-						graphics, is the property of Apple Seed Kindergarten and is
-						protected by copyright laws. Unauthorized use is prohibited.
+						graphics, is the property of Appleseed Daycare and is protected by
+						copyright laws. Unauthorized use is prohibited.
 					</p>
 				</li>
 				<li>
@@ -58,7 +58,7 @@ export default function TOS() {
 						6. Limitation of Liability
 					</span>
 					<p className="pl-4">
-						Apple Seed Kindergarten is not liable for any direct, indirect,
+						Appleseed Daycare is not liable for any direct, indirect,
 						incidental, or consequential damages arising from your use of the
 						Site.
 					</p>
