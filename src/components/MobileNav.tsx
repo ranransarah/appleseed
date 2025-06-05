@@ -8,7 +8,7 @@ const MobileNav = ({ open, setOpen, children }: Props) => {
 	return (
 		<>
 			<div
-				className={`absolute left-0 z-10 flex w-full flex-col gap-2 p-4 transition-all xl:hidden bg-white ${
+				className={`absolute left-0 z-10 flex w-full flex-col gap-8 px-8 pb-10  transition-all xl:hidden bg-white shadow-[0_10px_10px_-10px_rgba(0,0,0,0.3)] ${
 					open ? 'top-[100%]' : 'top-[-250%]'
 				}`}
 			>

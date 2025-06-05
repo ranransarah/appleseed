@@ -1,54 +1,47 @@
+import { Link } from '@tanstack/react-router';
 import useResize from '../hooks/useResize';
 import MobileNav from './MobileNav';
 import { useState } from 'react';
 
 const Navs = [
 	{
-		text: 'About Us',
-		subtext: '关于我们',
-		link: '#about',
+		text: 'Home',
+		subtext: '主页',
+		link: '/',
 	},
 	{
-		text: 'Admission Information',
-		subtext: '招生信息',
-		link: '#admission',
+		text: 'Our Program',
+		subtext: '我们的课程',
+		link: '/program',
 	},
 	{
-		text: 'Our Advantages',
-		subtext: '幼儿园优势',
-		link: '#advantages',
+		text: 'Photo Gallery',
+		subtext: '照片集',
+		link: '/photo-gallery',
 	},
 	{
-		text: 'Course Highlights',
-		subtext: '课程亮点',
-		link: '#curriculum',
+		text: 'Contact',
+		subtext: '联系我们',
+		link: '/contact',
 	},
 ];
 
 function NavLinks({ setOpen }: { setOpen?: (arg: boolean) => void }) {
-	const scrollTo = (link: string) => {
-		const target = document.querySelector(link);
-
-		if (target) {
-			target.scrollIntoView({ behavior: 'smooth' });
-			setOpen?.(false);
-		}
-	};
-
 	return (
 		<>
 			{Navs.map((nav) => {
 				return (
-					<button
-						onClick={() => scrollTo(nav.link)}
+					<Link
+						to={nav.link}
 						key={nav.link}
+						onClick={() => setOpen?.(false)}
 						className="hover:text-sunshine-gold cursor-pointer text-left font-semibold relative text-nowrap"
 					>
 						{nav.text}{' '}
 						<span className="absolute pl-2 md:pl-0 md:w-full md:left-0 md:translate-y-[80%]">
 							{nav.subtext}
 						</span>
-					</button>
+					</Link>
 				);
 			})}
 		</>
@@ -79,7 +72,7 @@ export default function Navbar() {
 				</div>
 			</a>
 			{resize && (
-				<div className="ml-auto hidden flex-row gap-6 xl:flex">
+				<div className="ml-auto hidden flex-row gap-12 xl:flex">
 					<NavLinks />
 				</div>
 			)}
