@@ -20,7 +20,7 @@ export default function Contact() {
 						<img
 							src="/wechat.jpg"
 							alt="wechat qrcode"
-							className="h-full"
+							className="w-full"
 						/>
 					</div>
 				</div>
