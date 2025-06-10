@@ -36,8 +36,8 @@ export const AdmissionInfo: AdmissionInfo[] = [
 		title: '上课时间 | Class Time',
 		body: (
 			<>
-				<p>周一至周五 8:00-16:00上下</p>
-				<p>Monday to Friday, 8:00 am - 4:00 pm</p>
+				<p>周一至周五 8:00-18:00上下</p>
+				<p>Monday to Friday, 8:00 am - 6:00 pm</p>
 			</>
 		),
 		icon: AlarmClock,
