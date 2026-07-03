@@ -1,6 +1,20 @@
 import type { Photo } from 'react-photo-album';
 
 export const Images: Photo[] = [
+	{ src: '/gallery/26.jpg', width: 600, height: 800 },
+	{ src: '/gallery/27.jpg', width: 600, height: 800 },
+	{ src: '/gallery/28.jpg', width: 600, height: 800 },
+	{ src: '/gallery/29.jpg', width: 600, height: 800 },
+	{ src: '/gallery/30.jpg', width: 400, height: 300 },
+	{ src: '/gallery/31.jpg', width: 400, height: 300 },
+	{ src: '/gallery/32.jpg', width: 600, height: 800 },
+	{ src: '/gallery/33.jpg', width: 600, height: 800 },
+	{ src: '/gallery/34.jpg', width: 600, height: 800 },
+	{ src: '/gallery/35.jpg', width: 600, height: 800 },
+	{ src: '/gallery/36.jpg', width: 600, height: 800 },
+	{ src: '/gallery/37.jpg', width: 400, height: 300 },
+	{ src: '/gallery/38.jpg', width: 600, height: 800 },
+	{ src: '/gallery/39.jpg', width: 600, height: 800 },
 	{ src: '/gallery/1.jpg', width: 400, height: 300 },
 	{ src: '/gallery/8.jpg', width: 600, height: 800 },
 	{ src: '/gallery/3.jpg', width: 800, height: 600 },
